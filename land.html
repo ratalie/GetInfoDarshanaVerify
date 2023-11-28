@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Darshana Verification</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Introduce the email you are going to use to store your credentials, forever</h2>
+    <form id="registrationForm">
+      <label for="nombre">Name:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="correo">Personal email:</label>
+      <input type="email" id="correo" name="correo" required>
+      <input type="hidden" id="correoEnlace" name="correoEnlace" value="">
+      <button type="button" onclick="registrarVoluntario()">Request verification</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
